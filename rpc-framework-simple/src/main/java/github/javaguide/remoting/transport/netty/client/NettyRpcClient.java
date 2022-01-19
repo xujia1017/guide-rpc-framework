@@ -41,6 +41,7 @@ import java.util.concurrent.TimeUnit;
  */
 @Slf4j
 public final class NettyRpcClient implements RpcRequestTransport {
+
     private final ServiceDiscovery serviceDiscovery;
     private final UnprocessedRequests unprocessedRequests;
     private final ChannelProvider channelProvider;
